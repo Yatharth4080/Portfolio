@@ -115,12 +115,10 @@ body {
 }
 
 #nav h1 {
-    font-family: Edwardian Script ITC, Gilroy;
-    /* font-family: Forte; */
-    /* font-family: ninja; */
+    font-family: ninja, Gilu;
     letter-spacing: 4px;
-    font-size: 55px;
-    font-weight: 100;
+    font-size: 45px;
+    font-weight: 600;
     color: #8ed7ee;
     text-shadow:  0 0 10px #8ed7ee;
 }
@@ -1013,8 +1011,9 @@ body {
     }
 
     #nav h1 {
-        font-family: Edwardian Script ITC, Gilroy;
-        letter-spacing: 2px;
+        font-family: ninja, Gilu;
+        letter-spacing: 3px;
+        font-size: 34px;
     }
 
     #detail {
