@@ -1164,10 +1164,10 @@ body {
 
     .cardcnt {
         position: absolute;
-        width: 120vw;
+        width: 150vw;
         height: fit-content;
-        top: 25vh;
-        left: -2vw;
+        top: 18vh;
+        left: -5vw;
     }
 
     .card {
@@ -1203,7 +1203,7 @@ body {
     }
 
     .cbottom p {
-        font-size: 1.22vh;
+        font-size: 1vh;
         line-height: 4vw;
         font-weight: 900;
         text-align: left;
@@ -1218,11 +1218,9 @@ body {
         color: #fff;
         font-weight: 800;
         border-radius: 25px;
-
     }
 
     #b2 {
-
         border: none;
         color: #86B2A3;
         background: transparent;
@@ -1757,11 +1755,11 @@ body {
     #ptop h1 span::after {
         content: '';
         position: absolute;
-        width: 18vw;
+        width: 45vw;
         height: 1.5vw;
         background: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
         left: 1vw;
-        top: 12vh;
+        top: 8vh;
     }
 
     #skills {
