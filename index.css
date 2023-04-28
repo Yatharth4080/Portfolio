@@ -115,7 +115,14 @@ body {
 }
 
 #nav h1 {
-    letter-spacing: 2px;
+    font-family: Edwardian Script ITC, Gilroy;
+    /* font-family: Forte; */
+    /* font-family: ninja; */
+    letter-spacing: 4px;
+    font-size: 55px;
+    font-weight: 100;
+    color: #8ed7ee;
+    text-shadow:  0 0 10px #8ed7ee;
 }
 
 #detail {
