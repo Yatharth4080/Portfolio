@@ -15,6 +15,7 @@ body {
     font-family: Gilu;
     src: url(./Gilroy-Regular.woff);
 }
+
 @font-face {
     font-family: ninja;
     src: url(./Shaloems.woff);
@@ -24,7 +25,7 @@ body {
     width: 100%;
 }
 
-#burger{
+#burger {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -35,7 +36,7 @@ body {
     transition: all linear 0.2s;
 }
 
-#cross{
+#cross {
     width: 100%;
     height: 10%;
     text-align: right;
@@ -43,11 +44,11 @@ body {
     display: none;
 }
 
-#cross i{
+#cross i {
     font-size: 55px;
 }
 
-#b-wrapper{
+#b-wrapper {
     width: 100%;
     height: 100%;
     display: flex;
@@ -56,7 +57,7 @@ body {
     justify-content: center;
 }
 
-#b-wrapper a{
+#b-wrapper a {
     text-decoration: none;
     font-size: 55px;
     padding-bottom: 30px;
@@ -64,11 +65,11 @@ body {
 
 }
 
-#b-wrapper a i{
+#b-wrapper a i {
     color: black;
 }
 
-#menu{
+#menu {
     position: absolute;
     right: 4vw;
     top: 8vh;
@@ -77,7 +78,7 @@ body {
     display: none;
 }
 
-#menu h4{
+#menu h4 {
     display: inline-block;
 }
 
@@ -98,7 +99,7 @@ body {
     color: #111;
     padding: 0 23px;
     font-weight: 600;
- 
+
 }
 
 #nav button {
@@ -120,7 +121,7 @@ body {
     font-size: 45px;
     font-weight: 600;
     color: #8ed7ee;
-    text-shadow:  0 0 10px #8ed7ee;
+    text-shadow: 0 0 10px #8ed7ee;
 }
 
 #detail {
@@ -188,7 +189,7 @@ body {
     color: #ef6a93;
     /* box-shadow: 0 0 15px #ef6a93; */
     text-shadow: 0 0 25px #ef6a93;
-    
+
 }
 
 #links {
@@ -980,7 +981,7 @@ body {
     width: 100%;
     height: 100%;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
 
 
@@ -1012,8 +1013,11 @@ body {
 
     #nav h1 {
         font-family: ninja, Gilu;
-        letter-spacing: 3px;
-        font-size: 34px;
+        letter-spacing: 4px;
+        font-size: 45px;
+        font-weight: 600;
+        color: #8ed7ee;
+        text-shadow: 0 0 10px #8ed7ee;
     }
 
     #detail {
@@ -1905,7 +1909,7 @@ body {
 
     }
 
-    #burger{
+    #burger {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -1915,8 +1919,8 @@ body {
         z-index: 9999;
         transition: all ease-in 0.4s;
     }
-    
-    #b-wrapper{
+
+    #b-wrapper {
         width: 100%;
         height: 100%;
         display: flex;
@@ -1924,20 +1928,20 @@ body {
         align-items: center;
         justify-content: center;
     }
-    
-    #b-wrapper a{
+
+    #b-wrapper a {
         text-decoration: none;
         font-size: 25px;
         padding-bottom: 15px;
         color: #777777;
-    
+
     }
-    
-    #b-wrapper a i{
+
+    #b-wrapper a i {
         color: black;
     }
-    
-    #menu{
+
+    #menu {
         position: absolute;
         right: 9vw;
         top: 4.5vh;
@@ -1946,14 +1950,14 @@ body {
         /* text-shadow: 0 0 5px #8ed7ee; */
         text-shadow: 0 0 3px #ef6a93;
         display: block;
-       
+
     }
-    
-    #menu h4{
+
+    #menu h4 {
         display: inline-block;
     }
 
-    #cross{
+    #cross {
         width: 100%;
         height: 10%;
         text-align: right;
@@ -1961,10 +1965,10 @@ body {
         padding-top: 20px;
         display: block;
     }
-    
-    #cross i{
+
+    #cross i {
         font-size: 35px;
     }
-    
+
 
 }
