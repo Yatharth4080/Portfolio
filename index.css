@@ -11,6 +11,11 @@ body {
     height: 100%;
 }
 
+@font-face {
+    font-family: ninja;
+    src: url(./Shaloems.woff);
+}
+
 #main {
     width: 100%;
 }
@@ -169,7 +174,7 @@ body {
 .multipletxt {
     display: inline-block;
     /* color: #FFADAD; */
-    font-family: Shaloems;
+    font-family: ninja;
     letter-spacing: 5px;
     color: #ef6a93;
     /* box-shadow: 0 0 15px #ef6a93; */
