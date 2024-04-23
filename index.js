@@ -101,4 +101,9 @@ var swiper = new Swiper(".mySwiper", {
     main.style.display = "block";
   })
 
+  var btmessage = document.querySelector("#b4")
+  btmessage.addEventListener('click', function(){
+    alert("Thanks for the Feedback");
+  });
+
 
